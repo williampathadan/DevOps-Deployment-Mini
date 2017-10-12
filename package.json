@@ -1,0 +1,14 @@
+{
+  "name": "devops-depoyment-mini",
+  "version": "0.0.1",
+  "description": "LambdaSchool Node.js Docker Mini Lab",
+  "license": "ISC",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  }
+}
