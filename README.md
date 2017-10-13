@@ -138,6 +138,10 @@ curl -H "Content-Type: application/json" -X POST -d '{"letter":"s"}' http://loca
 
 That's it! You've successfully containerized a node app!
 
-### Extra Credit
-Make sure to read the official Docker documentation when you finish. Also, try containerizing some other projects 
-you've built using this same flow. 
+### Further Reading 
+Of course, there's tons of information on Docker and its inner workings that we haven't touched on here in this 
+mini lab. Some great resources to read in order to dig into this topic a bit more are the [official docs](https://docs.docker.com/) 
+[This](https://www.sitepoint.com/docker-containers-software-delivery/) article also does a great job of 
+motivating why Docker is such an important infrastructural technology, along with defining many of the Docker 
+buzzwords and terminology. If you don't want to just read, try containerizing some other projects 
+you've built using this same flow you just practiced!
