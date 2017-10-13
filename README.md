@@ -104,7 +104,7 @@ $ docker build -t <your docker username>/devops-deployment-mini .
 
 Your image will now be listed by Docker when you run the command `docker images`.
 
-### Run the Image
+### Running the Image
 Now, we'll run the image we just built with:
 ```
 $ docker run -p 49160:8080 -d <your docker username>/devops-deployment-mini
@@ -121,7 +121,7 @@ If you need to go inside the container, you can use the `exec` command like so:
 $ docker exec -it <container ID> /bin/bash
 ```
 
-### Test the Image
+### Testing the Image
 To test the image running on your newly-created container, we can use `curl` to hit the endpoint that our container 
 exposed (you should have `curl` installed on your machine at this point; if you don't, go install it). 
 
