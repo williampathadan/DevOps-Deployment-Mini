@@ -2,6 +2,8 @@ const bodyParser = require('body-parser');
 const express = require('express');
 const fs = require('fs');
 
+const HOST = '0.0.0.0';
+const PORT = 8080;
 const STATUS_USER_ERROR = 422;
 
 const server = express();
@@ -56,4 +58,5 @@ server.post('/guess', (req, res) => {
   res.json({ guesses });
 });
 
-server.listen(3000);
+server.listen(PORT, HOST);
+console.log(`Running on http://${HOST}:${PORT}`);
