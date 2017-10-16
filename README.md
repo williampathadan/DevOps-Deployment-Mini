@@ -52,7 +52,7 @@ by the node.js maintainers.
 Next, we'll specify a working directory within our image's file structure to hold the application code inside 
 our image. This will serve as the working directory of your application:
 ```
-WORKDIR /usr/src/app
+WORKDIR /
 ```
 
 Since we're building off of the node 8.7 image, NPM is available, so the next thing we'll do is install our 
@@ -84,7 +84,7 @@ Our finished dockerfile should look like this:
 ```
 FROM node:8.7
 
-WORKDIR /usr/src/app
+WORKDIR /
 
 COPY package.json package-lock.json ./
 
