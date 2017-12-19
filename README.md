@@ -16,7 +16,7 @@ be running on your machine, just within a container environment).
 
 There won't be much in the way of discovery or figuring stuff out on your own in this lab. Docker containers 
 are complex under the hood, and letting you guys loose to figure stuff out on your own would most likely leave 
-you all quite confused. For the non-extra credit tasks, you'll just be following step-by-step instructions to 
+you all quite confused. For the non-stretch problem tasks, you'll just be following step-by-step instructions to 
 get things up and running. If you finish early (and you probably will), take the opportunity to 'dockerize' 
 some other projects you've worked on /built using the flow you've just practiced. 
 
